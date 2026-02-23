@@ -14,7 +14,7 @@
 ### Тестирование
 
 **Тест 1**
-![Pasted image 20260223161147.png]
+![Pasted image 20260223161147.png](https://github.com/EvMI1/ProgLang_Lab1/blob/main/%D0%A1%D0%BA%D1%80%D0%B8%D0%BD%D1%88%D0%BE%D1%82%D1%8B/Pasted%20image%2020260223161147.png)
 **Тест 2**
 ![[Pasted image 20260223161319.png]]
 **Тест 3**
