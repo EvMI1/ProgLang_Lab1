@@ -13,12 +13,11 @@
 
 ### Тестирование
 
-**Тест 1**
-![[Pasted image 20260223161147.png]]
-**Тест 2**
-![[Pasted image 20260223161319.png]]
-**Тест 3**
-![[Pasted image 20260223161544.png]]
+![Pasted image 20260223161147.png](https://github.com/EvMI1/ProgLang_Lab1/blob/main/%D0%A1%D0%BA%D1%80%D0%B8%D0%BD%D1%88%D0%BE%D1%82%D1%8B/Pasted%20image%2020260223161147.png)
+
+![Pasted image 20260223161319.png](https://github.com/EvMI1/ProgLang_Lab1/blob/main/%D0%A1%D0%BA%D1%80%D0%B8%D0%BD%D1%88%D0%BE%D1%82%D1%8B/Pasted%20image%2020260223161319.png)
+
+![Pasted image 20260223161544.png](https://github.com/EvMI1/ProgLang_Lab1/blob/main/%D0%A1%D0%BA%D1%80%D0%B8%D0%BD%D1%88%D0%BE%D1%82%D1%8B/Pasted%20image%2020260223161544.png)
 
 # Задание 2
 ## Задача 1
@@ -32,13 +31,13 @@
 Получаем от пользователя число и проверяем корректность ввода на принадлежность числа к множеству натуральных чисел. Вызов рекурсивной функции `count_even`. Пока число не равно нулю, выполняется следующее: берётся последняя цифру числа, взяв остаток от деления на 10. Проверка, является ли она чётной. Если да — увеличиваем счётчик на единицу. После этого отбрасываем последнюю цифру, разделив число нацело на 10.
 
 ### Тестирование
-![[Pasted image 20260223163504.png]]
+![Pasted image 20260223163504.png](https://github.com/EvMI1/ProgLang_Lab1/blob/main/%D0%A1%D0%BA%D1%80%D0%B8%D0%BD%D1%88%D0%BE%D1%82%D1%8B/Pasted%20image%2020260223163504.png)
 
-![[Pasted image 20260223163531.png]]
+![Pasted image 20260223163531.png](https://github.com/EvMI1/ProgLang_Lab1/blob/main/%D0%A1%D0%BA%D1%80%D0%B8%D0%BD%D1%88%D0%BE%D1%82%D1%8B/Pasted%20image%2020260223163531.png)
 
-![[Pasted image 20260223163617.png]]
+![Pasted image 20260223163617.png](https://github.com/EvMI1/ProgLang_Lab1/blob/main/%D0%A1%D0%BA%D1%80%D0%B8%D0%BD%D1%88%D0%BE%D1%82%D1%8B/Pasted%20image%2020260223163617.png)
 
-![[Pasted image 20260223163643.png]]
+![Pasted image 20260223163643.png](https://github.com/EvMI1/ProgLang_Lab1/blob/main/%D0%A1%D0%BA%D1%80%D0%B8%D0%BD%D1%88%D0%BE%D1%82%D1%8B/Pasted%20image%2020260223163643.png)
 
 
 
@@ -67,17 +66,17 @@
 Рекурсивная функция `pow` реализует возведение в целую неотрицательную степень методом быстрого возведения в степень (exponentiation by squaring). Базовые случаи: если степень отрицательная — выводит ошибку и возвращает ноль, если степень равна 0 — возвращает 1, если 1 — возвращает само число. Рекурсивный случай: вычисляет `p = pow c (n/2)` — число в половинной степени, затем `p2 = multiply p p` — квадрат этого результата. Если степень чётная — возвращает `p2`, если нечётная — домножает на исходное число `multiply c p2`. Это даёт логарифмическую сложность O(log n) вместо линейной.
 
 ### Тестирование
-![[Pasted image 20260223165636.png]]
+![Pasted image 20260223165636.png](https://github.com/EvMI1/ProgLang_Lab1/blob/main/%D0%A1%D0%BA%D1%80%D0%B8%D0%BD%D1%88%D0%BE%D1%82%D1%8B/Pasted%20image%2020260223165636.png)
 
-![[Pasted image 20260223165706.png]]
+![Pasted image 20260223165706.png](https://github.com/EvMI1/ProgLang_Lab1/blob/main/%D0%A1%D0%BA%D1%80%D0%B8%D0%BD%D1%88%D0%BE%D1%82%D1%8B/Pasted%20image%2020260223165706.png)
 
-![[Pasted image 20260223165747.png]]
+![Pasted image 20260223165747.png](https://github.com/EvMI1/ProgLang_Lab1/blob/main/%D0%A1%D0%BA%D1%80%D0%B8%D0%BD%D1%88%D0%BE%D1%82%D1%8B/Pasted%20image%2020260223165747.png)
 
-![[Pasted image 20260223165847.png]]
+![Pasted image 20260223165847.png](https://github.com/EvMI1/ProgLang_Lab1/blob/main/%D0%A1%D0%BA%D1%80%D0%B8%D0%BD%D1%88%D0%BE%D1%82%D1%8B/Pasted%20image%2020260223165847.png)
 
-![[Pasted image 20260223165921.png]]
+![Pasted image 20260223165921.png](https://github.com/EvMI1/ProgLang_Lab1/blob/main/%D0%A1%D0%BA%D1%80%D0%B8%D0%BD%D1%88%D0%BE%D1%82%D1%8B/Pasted%20image%2020260223165921.png)
 
-![[Pasted image 20260223170100.png]]
+![Pasted image 20260223170100.png](https://github.com/EvMI1/ProgLang_Lab1/blob/main/%D0%A1%D0%BA%D1%80%D0%B8%D0%BD%D1%88%D0%BE%D1%82%D1%8B/Pasted%20image%2020260223170100.png)
 
-![[Pasted image 20260223170217.png]]
+![Pasted image 20260223170217.png](https://github.com/EvMI1/ProgLang_Lab1/blob/main/%D0%A1%D0%BA%D1%80%D0%B8%D0%BD%D1%88%D0%BE%D1%82%D1%8B/Pasted%20image%2020260223170217.png)
 
