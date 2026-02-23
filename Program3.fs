@@ -43,11 +43,11 @@ let rec power (numb: complex_numb) (n: int) : complex_numb =
         printfn "Ошибка: степень должна быть неотрицательной"
         {real = 0.0; im = 0.0}
     elif n = 0 then {real = 1.0; im = 0.0}
-    elif n = 1 then c
+    elif n = 1 then numb
     else
         let p = power numb (n / 2)
         let p2 = multiply p p
-        if n % 2 = 0 then p2 else multiply c p2
+        if n % 2 = 0 then p2 else multiply numb p2
 
 [<EntryPoint>]
 let main _ =
