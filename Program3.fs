@@ -38,14 +38,14 @@ let divide (a: complex_numb) (b: complex_numb) : complex_numb =
         {real = (a.real * b.real + a.im * b.im) / denom;
           im = (a.im * b.real - a.real * b.im) / denom}
 
-let rec pow (c: complex_numb) (n: int) : complex_numb =
+let rec power (numb: complex_numb) (n: int) : complex_numb =
     if n < 0 then
         printfn "Ошибка: степень должна быть неотрицательной"
         {real = 0.0; im = 0.0}
     elif n = 0 then {real = 1.0; im = 0.0}
     elif n = 1 then c
     else
-        let p = pow c (n / 2)
+        let p = power numb (n / 2)
         let p2 = multiply p p
         if n % 2 = 0 then p2 else multiply c p2
 
@@ -72,9 +72,9 @@ let main _ =
     let n = int(Console.ReadLine())
     printf "Возведение в степень: "
     if choice = 1 then
-        PrintComplex (pow numb1 n)
+        PrintComplex (power numb1 n)
     elif choice = 2 then
-        PrintComplex (pow numb2 n)
+        PrintComplex (power numb2 n)
     else
         printfn "Некорректный выбор!"
     0
